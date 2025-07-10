@@ -1,7 +1,14 @@
 /*
-Given is a string n. The task is to return the sentence in CamelCase notation.
+TASK: Given is a string n. The task is to return the sentence in CamelCase notation.
 This means that each new word is capitalized and immediately appended to the old word.
 Start with a lowercase letter.
+*/
+
+/*
+SOLUTION: First, split the string into an array with separate words (use space ' ' as a dividor).
+Iterate through the words, changing the first letter to uppercase and leaving the rest of the word untouched.
+Use tempString variable to remember it and add it to the variable camel.
+Change the very first letter to lower case to obtain the final solution.
 */
 
 function camelCase(n) {
@@ -25,7 +32,7 @@ function camelCase(n) {
 }
 
 /*
-Test Cases:
+TEST CASES:
 
 camelCase('Camel Case')
 'camelCase'
