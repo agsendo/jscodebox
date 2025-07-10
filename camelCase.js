@@ -23,3 +23,22 @@ function camelCase(n) {
     //console.log(camel);
     return camel;
 }
+
+/*
+Test Cases:
+
+camelCase('Camel Case')
+'camelCase'
+
+camelCase('String not found')
+'stringNotFound'
+
+camelCase('Nice Challenge')
+'niceChallenge'
+
+camelCase(' Is not found ')
+'isNotFound'
+
+camelCase('CamelCase')
+'camelCase'
+*/
