@@ -1,6 +1,11 @@
 /*
-Given is a string hangmanString. Replace every second letter with an underscore
+TASK: Given is a string hangmanString. Replace every second letter with an underscore
 and return the result as a string. The first character must be an underscore.
+*/
+
+/*
+SOLUTION: Iterate through the letters of the string. If the index is an even number (starting at 0),
+then change the letter to underscore.
 */
 
 function hangman(hangmanString) {
