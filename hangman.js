@@ -21,7 +21,7 @@ function hangman(hangmanString) {
 }
 
 /*
-Test Cases:
+TEST CASES:
 
 hangman('TestString')
 '_e_t_t_i_g'
