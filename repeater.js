@@ -1,4 +1,12 @@
-//Given is a String string and a number n. Return a string with the section from 0 to n in a row. In each run n is to be decremented.
+/*
+TASK: Given is a String string and a number n. Return a string with the section
+from 0 to n in a row. In each run n is to be decremented.
+*/
+
+/*
+SOLUTION: Loop with decrementing the number n (repeated letters) and iterate through
+the section of the string, according to the number n. Each iteration adds a letter to the final string.
+*/
 
 function repeater(string, n) {
     let newString = '';
@@ -16,7 +24,7 @@ function repeater(string, n) {
 }
 
 /*
-Test Cases:
+TEST CASES:
 
 repeater('JSCodebox',6)
 'JSCodeJSCodJSCoJSCJSJ'
