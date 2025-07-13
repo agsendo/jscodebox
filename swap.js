@@ -17,7 +17,6 @@ function swap(numbers) {
 
 /*
 TEST CASES:
-
 swap([1,5,3,7,2,7,3])
 [3,5,3,7,2,7,1]
 
