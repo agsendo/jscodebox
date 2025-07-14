@@ -26,3 +26,22 @@ function findPairs(arr, target) {
     }
     return pairs;
 }
+
+
+/*
+TEST CASES:
+findPairs([1,2,3,4,5], 5)
+[[1,4],[2,3]]
+
+findPairs([3,7,8,4,5,9], 12)
+[[3,9],[4,8],[5,7]]
+
+findPairs([2,4,6,8], 10)
+[[2,8],[4,6]]
+
+findPairs([1,3,5,7,9], 13)
+[]
+
+findPairs([1,2,3,4], 8)
+[]
+*/
